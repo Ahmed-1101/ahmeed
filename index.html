@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body style="background-color:white;">
+
+<form >
+<fieldset style="background-color:  rgb(200, 59, 59);border-radius: 3%;">
+    <legend style="background-color: rgb(0, 128, 206);font-size: 180%;">Personal Data</legend>
+
+    <fieldset style="background-color: rgb(217, 165, 30);border-radius: 5%;">
+
+        <legend style="background-color: rgb(0, 128, 206); font-size: 150%;">Your Name</legend>
+
+        <br><br><br><br>
+        <label for="a1" style="font-size:larger;">First Name  :</label>
+        <!-- <textarea id="a1"  placeholder="FN" ></textarea> --> <!-- تاج بيظهر او بيخليك تكتب نص بس مبيرحش الباك اند بعن سبمت بوتم -->
+        <input type="text" id="a1" placeholder="Ahmed"  name="fName">  <!-- اتربيوت نيم هوه اللي بيروح الباكاند -->
+        <br><br>
+        <label for="a2" style="margin: -.7%;" style="font-size:larger;">Second Name:</label>
+        <input type="text" id="a2" placeholder="Mahmoud" name="sName"> <!-- atripute placeholder هوه اللي بيخليك تحط كلام شفاف في الانبت -->
+        <br><br>
+    </fieldset>
+
+    <br><br><br><br>
+
+    <label for="a3" >Your Phone</label>
+        <input type="number" id="a3" placeholder="01021716728" > <br><br>
+    <label for="a4" style="margin: 1.2%;">Email     :</label>
+        <input type="email" id="a4" placeholder="ahmed@gmail.com"> <br><br>
+    <label for="a5" style="margin: .5%;">Password</label>
+        <input type="password" id="a5"> <br><br>
+    <label for="a6" style="margin: -.1%;">rePassword</label>
+        <input type="password" id="a6">
+    
+    <br><br><br>
+
+    <b style="font-size:larger;">Choose ur gender</b>
+    <br>
+    
+    <input type="radio" name="gender" id="a7" value="Male" checked>
+    <label for="a7">Male</label> <br>
+    
+     
+    <input type="radio" name="gender" id="a8" value="fMale">
+    <label for="a8">Female</label>
+
+    <br><br><br><br>
+
+    <b style="font-size:larger;">Skills</b> <br>
+   <input type="checkbox" name="Skills" id="a9" value="Student" checked> 
+   <label for="a9">Student</label> <br>
+
+   <input type="checkbox" name="Skills" id="a10" value="Graduated"> 
+   <label for="a10">Graduate</label>
+
+   <br><br><br>
+
+   <b id="a11" style="font-size:larger;">Your Group</b> <br>
+   <select name="select" id="a11">
+
+    <optgroup label="Group1">
+        <option value="G1.1">Group1.1</option>
+    </optgroup>
+
+    <optgroup label="Group2">
+        <option value="G2.1" >Group2.1</option><option value="G2.2">Group2.2</option>
+    </optgroup>
+
+    <optgroup label="Group1">
+        <option value="G3.1">Group3.1</option><option value="G3.2">Group3.2</option><option value="G3.3">Group3.3</option>
+    </optgroup>
+
+    <optgroup label="Name of School">
+        <option value="AUUC" selected>AUC</option>
+    </optgroup>
+
+   </select>
+   <br><br>
+   
+   <button  type="submit"  style="background-color: black;color: aliceblue;font-size: large;">SUBMIT</button>
+    
+</fieldset>
+</form>
+
+</body>
+
+</html>
